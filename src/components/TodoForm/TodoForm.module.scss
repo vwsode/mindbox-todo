@@ -1,0 +1,30 @@
+.form {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 12px 8px;
+	gap: 16px;
+
+	background: rgba(255, 255, 255, 0.03);
+}
+
+.icon {
+	width: 32px;
+	height: 32px;
+}
+
+.input {
+	font-family: inherit;
+	font-size: var(--fsz-item);
+	width: 100%;
+	flex: 1 0 0;
+
+
+	font-weight: 300;
+
+
+	&::placeholder {
+		font-style: italic;
+		color: var(--clr-checked);
+	}
+}

@@ -1,0 +1,15 @@
+.divider {
+	background-color: var(--clr-border-hint);
+
+	border: none;
+	height: 1px;
+	width: 100%;
+
+}
+
+.message {
+	color: var(--clr-todo-name);
+	padding: 17.5px 16px;
+	display: block;
+	opacity: 0.5;
+}

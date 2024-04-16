@@ -1,0 +1,21 @@
+:root {
+	/* Color styles */
+	--clr-body-bg: #f5f5f5;
+	--clr-white: rgba(255, 255, 255, 1);
+	--clr-title: rgba(175, 47, 47, 0.15);
+	--clr-border-hint: rgba(208, 208, 208, 1);
+	--clr-todo-name: rgba(39, 36, 36, 1);
+	--clr-status: rgba(103, 99, 99, 1);
+	--clr-primary: rgba(175, 47, 47, 1);
+	--clr-hover: rgba(209, 85, 85, 1);
+	--clr-background: rgba(229, 229, 229, 1);
+	--clr-checked: rgba(47, 175, 175, 1);
+
+	/* Text-size styles */
+	--fsz-title: 72px;
+	--fsz-item: 20px;
+	--fsz-status: 16px;
+
+	/* Effect styles */
+	--shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}

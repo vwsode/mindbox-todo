@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	cursor: pointer;
+}
+
+input,
+button,
+textarea {
+	outline: none;
+	border: none;
+	background-color: transparent;
+}

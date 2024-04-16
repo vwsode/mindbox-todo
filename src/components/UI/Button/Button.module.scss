@@ -1,0 +1,35 @@
+.btn {
+	border: 1px solid transparent;
+	font-family: inherit;
+	padding: 3.5px 8px;
+	font-weight: 400;
+	font-size: 14px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	transition: color 100ms, border-color 100ms, background-color 100ms;
+
+	@media (hover: hover) and (pointer: fine) {
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+
+	&:active {
+		opacity: 1;
+	}
+}
+
+.btn-secondary {
+	border-color: var(--clr-title);
+	border-radius: 4px;
+	color: var(--clr-status);
+
+
+}
+
+.btn-transparent {
+	color: var(--clr-status);
+}
