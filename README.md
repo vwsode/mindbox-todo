@@ -16,3 +16,8 @@ npm run start
 ```shell
 npm run build
 ```
+
+Запустить тесты
+```shell
+npm run test
+```
